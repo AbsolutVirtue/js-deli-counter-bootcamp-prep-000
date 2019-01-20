@@ -16,16 +16,16 @@ function nowServing(katzDeliLine) {
 
 function currentLine(people) {
   if(people.length === 0) {
-  return "The line is currently empty." 
+  return "The line is currently empty." ;
   }
   
-  var newStr = []
+  var newStr = [];
   for(var i = 0; i < people.length; i++) {
     var person = people[i];
     
-    newStr.push(` ${i + 1}. ${person}`)
+    newStr.push(` ${i + 1}. ${person}`);
     
   }
 
-  return "The line is currently:" + newStr
+  return "The line is currently:" + newStr;
 }
